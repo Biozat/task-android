@@ -6,7 +6,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 class RetrofitInstance {
 
     companion object {
-        val BaseUrl = "https://api.imgflip.com/"
+        val BaseUrl = "https://api.imgflip.com"
 
         fun getRetrofitInstance(): Retrofit {
 

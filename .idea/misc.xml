@@ -3,7 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_meme_detail.xml" value="0.12318840579710146" />
+        <entry key="app/src/main/res/layout/content_meme_detail.xml" value="0.12318840579710146" />
+        <entry key="app/src/main/res/layout/fragment_first.xml" value="0.12318840579710146" />
+        <entry key="app/src/main/res/layout/fragment_recycler_list.xml" value="0.2749391727493917" />
+        <entry key="app/src/main/res/layout/recyler_list_row.xml" value="0.2128623188405797" />
       </map>
     </option>
   </component>
