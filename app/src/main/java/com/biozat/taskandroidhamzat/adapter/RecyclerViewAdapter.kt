@@ -1,10 +1,13 @@
 package com.biozat.taskandroidhamzat.adapter
 
+import android.app.Activity
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
+import com.biozat.taskandroidhamzat.MemeDetailActivity
 import com.biozat.taskandroidhamzat.R
 import com.biozat.taskandroidhamzat.RecyclerListFragment
 import com.biozat.taskandroidhamzat.databinding.RecylerListRowBinding
@@ -38,7 +41,11 @@ inner class ViewHolder(val binding: RecylerListRowBinding) : RecyclerView.ViewHo
             .into(holder.binding.img)
 
         holder.binding.img.setOnClickListener{
-
+           val activity = holder.itemView.context as Activity
+            val intent = Intent(activity, MemeDetailActivity::class.java)
+            intent.putExtra("name", item.name)
+            intent.putExtra("url", item.url)
+            activity.startActivity(intent)
         }
 
     }

@@ -19,7 +19,8 @@
             android:name=".MemeDetailActivity"
             android:exported="false"
             android:label="@string/title_activity_meme_detail"
-            android:theme="@style/Theme.TaskAndroidHamzat.NoActionBar" />
+            android:theme="@style/Theme.TaskAndroidHamzat.NoActionBar"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">
